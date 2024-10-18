@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #3498db; 
+  color: white; 
+  padding: 3px 0; 
+  box-sizing: border-box; 
+}
+
+.card-action span {
+  float: right;
+  margin-top: 5px; 
+}
+
+.card:hover {
+  cursor: pointer;
+  color: #0a20e2; 
+  transition: background-color 0.3s ease; 
+}
+
+.message {
+  display: none; /* Inicialmente oculto */
+  position: fixed; /* Fijar en la pantalla */
+  top: 50%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translate(-50%, -50%); /* Ajustar el punto de origen */
+  margin: 20px;
+  padding: 10px;
+  background-color: #28a745; /* Color verde para el mensaje */
+  color: white;
+  text-align: center;
+  z-index: 1000; /* Asegura que se muestre encima de otros elementos */
+}
